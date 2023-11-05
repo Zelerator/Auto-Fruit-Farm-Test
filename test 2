@@ -1,0 +1,637 @@
+if not game:IsLoaded() then
+    game.Loaded:Wait()
+end
+repeat
+    task.wait()
+until game:GetService("Players") and game:GetService("Workspace") and game:GetService("ReplicatedStorage")
+
+_G.Rocket = true
+_G.Spin = true
+_G.Chop = true
+_G.Spring = true
+_G.Bomb = true
+_G.Smoke = true
+_G.Spike = true
+_G.Flame = true
+_G.Falcon = true
+_G.Ice = true
+_G.Sand = true
+_G.Dark = true
+_G.Diamond = true
+_G.Light = true
+_G.Rubber = true
+_G.Barrier = true
+_G.Ghost = true
+_G.Magma = true
+_G.Quake = true
+_G.Buddha = true
+_G.Love = true
+_G.Spider = true
+_G.Sound = true
+_G.Phoenix = true
+_G.Portal = true
+_G.Rumble = true
+_G.Pain = true
+_G.Blizzard = true
+_G.Gravity = true
+_G.Mammoth = true
+_G.Dough = true
+_G.shadow = true
+_G.Venom = true
+_G.Control = true
+_G.Spirit = true
+_G.Dragon = true
+_G.Leopard = true
+
+
+spawn(function()
+while _G.Rocket == true do
+    local args = {
+        [1] = "StoreFruit",
+        [2] = "Rocket-Rocket",
+        [3] = game:GetService("Players").LocalPlayer.Character:FindFirstChild("Rocket Fruit")
+    }
+    
+    game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+    wait()
+end
+
+
+spawn(function()
+    while _G.Spin == true do
+        local args = {
+            [1] = "StoreFruit",
+            [2] = "Spin-Spin",
+            [3] = game:GetService("Players").LocalPlayer.Character:FindFirstChild("Spin Fruit")
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+    wait()
+end
+
+
+spawn(function()
+    while _G.Spin == true do
+        local args = {
+            [1] = "StoreFruit",
+            [2] = "Spin-Spin",
+            [3] = game:GetService("Players").LocalPlayer.Character:FindFirstChild("Spin Fruit")
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+    wait()
+end
+
+
+spawn(function()
+    while _G.Chop == true do
+        local args = {
+            [1] = "StoreFruit",
+            [2] = "Chop-Chop",
+            [3] = game:GetService("Players").LocalPlayer.Character:FindFirstChild("Chop Fruit")
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+    wait()
+end
+
+
+spawn(function()
+    while _G.Spring == true do
+        local args = {
+            [1] = "StoreFruit",
+            [2] = "Spring-Spring",
+            [3] = game:GetService("Players").LocalPlayer.Character:FindFirstChild("Spring Fruit")
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+    wait()
+end
+
+
+spawn(function()
+    while _G.Bomb == true do
+        local args = {
+            [1] = "StoreFruit",
+            [2] = "Bomb-Bomb",
+            [3] = game:GetService("Players").LocalPlayer.Character:FindFirstChild("Bomb Fruit")
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+    wait()
+end
+
+
+spawn(function()
+    while _G.Smoke == true do
+        local args = {
+            [1] = "StoreFruit",
+            [2] = "Smoke-Smoke",
+            [3] = game:GetService("Players").LocalPlayer.Character:FindFirstChild("Smoke Fruit")
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+    wait()
+end
+
+spawn(function()
+    while _G.Spike == true do
+        local args = {
+            [1] = "StoreFruit",
+            [2] = "Spike-Spike",
+            [3] = game:GetService("Players").LocalPlayer.Character:FindFirstChild("Spike Fruit")
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+    wait()
+end
+
+spawn(function()
+    while _G.Flame == true do
+        local args = {
+            [1] = "StoreFruit",
+            [2] = "Flame-Flame",
+            [3] = game:GetService("Players").LocalPlayer.Character:FindFirstChild("Flame Fruit")
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+    wait()
+end
+
+spawn(function()
+    while _G.Falcon == true do
+        local args = {
+            [1] = "StoreFruit",
+            [2] = "Falcon-Falcon",
+            [3] = game:GetService("Players").LocalPlayer.Character:FindFirstChild("Falcon Fruit")
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+    wait()
+end
+
+
+spawn(function()
+    while _G.Ice == true do
+        local args = {
+            [1] = "StoreFruit",
+            [2] = "Ice-Ice",
+            [3] = game:GetService("Players").LocalPlayer.Character:FindFirstChild("Ice Fruit")
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+    wait()
+end
+
+
+spawn(function()
+    while _G.Sand == true do
+        local args = {
+            [1] = "StoreFruit",
+            [2] = "Sand-Sand",
+            [3] = game:GetService("Players").LocalPlayer.Character:FindFirstChild("Sand Fruit")
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+    wait()
+end
+
+
+spawn(function()
+    while _G.Dark == true do
+        local args = {
+            [1] = "StoreFruit",
+            [2] = "Dark-Dark",
+            [3] = game:GetService("Players").LocalPlayer.Character:FindFirstChild("Dark Fruit")
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+    wait()
+end
+
+
+spawn(function()
+    while _G.Diamond == true do
+        local args = {
+            [1] = "StoreFruit",
+            [2] = "Diamond-Diamond",
+            [3] = game:GetService("Players").LocalPlayer.Character:FindFirstChild("Diamond Fruit")
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+    wait()
+end
+
+
+spawn(function()
+    while _G.Light == true do
+        local args = {
+            [1] = "StoreFruit",
+            [2] = "Light-Light",
+            [3] = game:GetService("Players").LocalPlayer.Character:FindFirstChild("Light Fruit")
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+    wait()
+end
+
+
+spawn(function()
+    while _G.Rubber == true do
+        local args = {
+            [1] = "StoreFruit",
+            [2] = "Rubber-Rubber",
+            [3] = game:GetService("Players").LocalPlayer.Character:FindFirstChild("Rubber Fruit")
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+    wait()
+end
+
+
+spawn(function()
+    while _G.Barrier == true do
+        local args = {
+            [1] = "StoreFruit",
+            [2] = "Barrier-Barrier",
+            [3] = game:GetService("Players").LocalPlayer.Character:FindFirstChild("Barrier Fruit")
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+    wait()
+end
+
+
+spawn(function()
+    while _G.Ghost == true do
+        local args = {
+            [1] = "StoreFruit",
+            [2] = "Ghost-Ghost",
+            [3] = game:GetService("Players").LocalPlayer.Character:FindFirstChild("Ghost Fruit")
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+    wait()
+end
+
+
+spawn(function()
+    while _G.Magma == true do
+        local args = {
+            [1] = "StoreFruit",
+            [2] = "Magma-Magma",
+            [3] = game:GetService("Players").LocalPlayer.Character:FindFirstChild("Magma Fruit")
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+    wait()
+end
+
+
+spawn(function()
+    while _G.Quake == true do
+        local args = {
+            [1] = "StoreFruit",
+            [2] = "Quake-Quake",
+            [3] = game:GetService("Players").LocalPlayer.Character:FindFirstChild("Quake Fruit")
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+    wait()
+end
+
+
+spawn(function()
+    while _G.Buddha == true do
+        local args = {
+            [1] = "StoreFruit",
+            [2] = "Buddha-Buddha",
+            [3] = game:GetService("Players").LocalPlayer.Character:FindFirstChild("Buddha Fruit")
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+    wait()
+end
+
+
+spawn(function()
+    while _G.Love == true do
+        local args = {
+            [1] = "StoreFruit",
+            [2] = "Love-Love",
+            [3] = game:GetService("Players").LocalPlayer.Character:FindFirstChild("Falcon Fruit")
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+    wait()
+end
+
+
+spawn(function()
+    while _G.Spider == true do
+        local args = {
+            [1] = "StoreFruit",
+            [2] = "Spider-Spider",
+            [3] = game:GetService("Players").LocalPlayer.Character:FindFirstChild("Spider Fruit")
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+    wait()
+end
+
+
+spawn(function()
+    while _G.Sound == true do
+        local args = {
+            [1] = "StoreFruit",
+            [2] = "Sound-Sound",
+            [3] = game:GetService("Players").LocalPlayer.Character:FindFirstChild("Sound Fruit")
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+    wait()
+end
+
+
+spawn(function()
+    while _G.Phoenix == true do
+        local args = {
+            [1] = "StoreFruit",
+            [2] = "Phoenix-Phoenix",
+            [3] = game:GetService("Players").LocalPlayer.Character:FindFirstChild("Phoenix Fruit")
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+    wait()
+end
+
+
+spawn(function()
+    while _G.Portal == true do
+        local args = {
+            [1] = "StoreFruit",
+            [2] = "Portal-Portal",
+            [3] = game:GetService("Players").LocalPlayer.Character:FindFirstChild("Portal Fruit")
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+    wait()
+end
+
+
+spawn(function()
+    while _G.Rumble == true do
+        local args = {
+            [1] = "StoreFruit",
+            [2] = "Rumble-Rumble",
+            [3] = game:GetService("Players").LocalPlayer.Character:FindFirstChild("Rumble Fruit")
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+    wait()
+end
+
+
+spawn(function()
+    while _G.Pain == true do
+        local args = {
+            [1] = "StoreFruit",
+            [2] = "Pain-Pain",
+            [3] = game:GetService("Players").LocalPlayer.Character:FindFirstChild("Pain Fruit")
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+    wait()
+end
+
+
+spawn(function()
+    while _G.Blizzard == true do
+        local args = {
+            [1] = "StoreFruit",
+            [2] = "Blizzard-Blizzard",
+            [3] = game:GetService("Players").LocalPlayer.Character:FindFirstChild("Blizzard Fruit")
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+    wait()
+end
+
+
+spawn(function()
+    while _G.Gravity == true do
+        local args = {
+            [1] = "StoreFruit",
+            [2] = "Gravity-Gravity",
+            [3] = game:GetService("Players").LocalPlayer.Character:FindFirstChild("Gravity Fruit")
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+    wait()
+end
+
+
+spawn(function()
+    while _G.Mammoth == true do
+        local args = {
+            [1] = "StoreFruit",
+            [2] = "Mammoth-Mammoth",
+            [3] = game:GetService("Players").LocalPlayer.Character:FindFirstChild("Mammoth Fruit")
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+    wait()
+end
+
+
+spawn(function()
+    while _G.Dough == true do
+        local args = {
+            [1] = "StoreFruit",
+            [2] = "Dough-Dough",
+            [3] = game:GetService("Players").LocalPlayer.Character:FindFirstChild("Dough Fruit")
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+    wait()
+end
+
+
+spawn(function()
+    while _G.shadow == true do
+        local args = {
+            [1] = "StoreFruit",
+            [2] = "shadow-shadow",
+            [3] = game:GetService("Players").LocalPlayer.Character:FindFirstChild("shadow Fruit")
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+    wait()
+end
+
+
+spawn(function()
+    while _G.Venom == true do
+        local args = {
+            [1] = "StoreFruit",
+            [2] = "Venom-Venom",
+            [3] = game:GetService("Players").LocalPlayer.Character:FindFirstChild("Venom Fruit")
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+    wait()
+end
+
+
+spawn(function()
+    while _G.Control == true do
+        local args = {
+            [1] = "StoreFruit",
+            [2] = "Control-Control",
+            [3] = game:GetService("Players").LocalPlayer.Character:FindFirstChild("Control Fruit")
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+    wait()
+end
+
+
+spawn(function()
+    while _G.Spirit == true do
+        local args = {
+            [1] = "StoreFruit",
+            [2] = "Spirit-Spirit",
+            [3] = game:GetService("Players").LocalPlayer.Character:FindFirstChild("Spirit Fruit")
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+    wait()
+end
+
+
+spawn(function()
+    while _G.Dragon == true do
+        local args = {
+            [1] = "StoreFruit",
+            [2] = "Dragon-Dragon",
+            [3] = game:GetService("Players").LocalPlayer.Character:FindFirstChild("Dragon Fruit")
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+    wait()
+end
+
+
+spawn(function()
+    while _G.Leopard == true do
+        local args = {
+            [1] = "StoreFruit",
+            [2] = "Leopard-Leopard",
+            [3] = game:GetService("Players").LocalPlayer.Character:FindFirstChild("Leopard Fruit")
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+    wait()
+end
+
+local LocalPlayer = game:GetService("Players").LocalPlayer
+loadstring(game:HttpGet("https://pastebin.com/raw/tUUGAeaH", true))()
+
+local function returnHRP()
+    if not LocalPlayer.Character then
+        return
+    end
+    if not LocalPlayer.Character:FindFirstChild("HumanoidRootPart") then
+        return
+    else
+        return LocalPlayer.Character:FindFirstChild("HumanoidRootPart")
+    end
+end
+local function returnHUM()
+    if not LocalPlayer.Character then
+        return
+    end
+    if not LocalPlayer.Character:FindFirstChild("Humanoid") then
+        return
+    else
+        return LocalPlayer.Character:FindFirstChild("Humanoid")
+    end
+end
+repeat
+    task.wait()
+until returnHRP() and returnHUM()
+local HrpTable = {
+    Velocity = returnHRP().Velocity,
+    Transparency = returnHRP().Transparency,
+    Rotation = returnHRP().Rotation,
+    Size = returnHRP().Size,
+    Orientation = returnHRP().Orientation,
+    Anchored = returnHRP().Anchored
+}
+
+local function spoofHRP()
+    for i, v in pairs(HrpTable) do
+        spoof(returnHRP(), tostring(i), returnHRP():GetAttribute(v))
+    end
+
+    return true
+end
+
+local function TpTo(CFrame, Refresh)
+    if Refresh then
+        returnHUM().Health = 0
+        LocalPlayer.CharacterAdded:Wait()
+        repeat
+            task.wait()
+        until returnHRP() and returnHUM()
+        spoofHRP()
+        spoofHUM()
+    else
+        spoofHRP()
+    end
+
+    returnHRP().CFrame = CFrame
+
+    return true
+end
+
+
+for i=1,100 do
+	print("Hopping Server Now")
+end
+
+local Fruit_InServer = false
+local Fruits_InServer = {}
+local Fruit_InHand = nil
+
+for _,v in ipairs(workspace:GetChildren()) do
+	if v:IsA("Tool") then
+		Fruit_InServer = true
+		table.insert(Fruits_InServer, v)
+	end
+end
+
+if Fruit_InServer then
+	repeat
+		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(table.unpack({    [1] = "SetTeam",    [2] = "Marines",}))
+		task.wait(.4)
+	until LocalPlayer.Team == game:GetService("Teams")["Marines"]
+	
+	for _,v in pairs(Fruits_InServer) do
+		returnHRP().CFrame=v.Handle.CFrame
+		task.wait(.1)
+		Fruit_InHand = string.gsub(v.Name, " Fruit", "")
+		Fruit_InHand = Fruit_InHand.."-"..Fruit_InHand
+		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(table.unpack({    [1] = "StoreFruit",    [2] = Fruit_InHand,    [3] = returnHRP().Parent:FindFirstChildOfClass("Tool"),}))
+		task.wait(.1)
+	end
+	
+	task.wait(.5)
+	local module = loadstring(game:HttpGet"https://raw.githubusercontent.com/LeoKholYt/roblox/main/lk_serverhop.lua")()
+    module:Teleport(game.PlaceId)
+else
+	local module = loadstring(game:HttpGet"https://raw.githubusercontent.com/LeoKholYt/roblox/main/lk_serverhop.lua")()
+    module:Teleport(game.PlaceId)
+end
+
+--This script is just a test made for the Alpha Ver.
