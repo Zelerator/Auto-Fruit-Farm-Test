@@ -82,7 +82,7 @@ for _,v in ipairs(workspace:GetChildren()) do
 	end
 end
 
-if Fruit_InServer then
+if Fruit_InServer == true then
 	repeat
 		game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(table.unpack({    [1] = "SetTeam",    [2] = "Marines",})) 
 		task.wait(.4)
